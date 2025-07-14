@@ -1,25 +1,27 @@
 # Cog-Culture-Internship
 
-# Voice AI Agent for Telephonic Candidate Screening
+# 🎤 Voice AI Agent for Telephonic Candidate Screening
 
 ## 💡 Use Case
-An automated AI agent that transcribes candidate voice answers, analyzes sentiment, extracts key information, and makes screening decisions.
+This project implements an automated AI agent that can screen job candidates through telephonic audio responses. The agent transcribes their answers, analyzes sentiment, extracts important keywords (skills, location, experience), and makes intelligent screening decisions.
+
+---
 
 ## ⚙️ Tech Stack
-- Python
-- Whisper (speech-to-text)
-- Transformers (sentiment analysis)
-- Gradio (frontend)
+- **Python**
+- **OpenAI Whisper** — Speech-to-text transcription
+- **Hugging Face Transformers** — Sentiment analysis
+- **Gradio** — Frontend demo interface
 
-## 💬 Agent Flow
-1. Upload audio (candidate answer)
-2. Transcription using Whisper
-3. Sentiment analysis (positive/negative)
-4. Keyword extraction (skills, location, years)
-5. Agent reasoning logic (accept/escalate)
-6. Return insights & closing line
+---
+
+## 🗺️ Agent Flow Diagram
+![Agent Flow](Agent_flow_diagram.png)
+
+---
 
 ## 🚀 How to Run
+
 ```bash
 pip install -r requirements.txt
 python app.py
